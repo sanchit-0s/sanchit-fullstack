@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/components.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+<body >
+    <div class="index">
+    <div class="dashboard">
+        <header class="header">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Tasks</a></li>
+                    <li><a href="#">Profile</a></li>
+                </ul>
+            </nav>
+            <div class="user-info">
+                <span>Welcome</span>
+                <button id="logout-btn">Logout</button>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <!-- <aside class="sidebar">
+                <ul>
+                    <li><a href="#">All Tasks</a></li>
+                    <li><a href="#">Completed</a></li>
+                    <li><a href="#">Pending</a></li>
+                </ul> -->
+            </aside>
+
+            <section class="content">
+                <h1>Task List</h1>
+                <div class="task-list">
+                    <div class="task-card">
+                        <div class="task-info">
+                            <h3 class="task-title">Task 1</h3>
+                            <p class="task-description">description of Task 1</p>
+                            <div class="task-status">
+                                <span class="status-label completed">Completed</span>
+                            </div>
+                            <div class="task-priority">
+                                <span class="priority-level high">High Priority</span>
+                            </div>
+                        </div>
+                        
+                        <div class="task-actions">
+                            <button class="edit-btn">
+                                <i class="fas fa-edit"></i>Edit
+                            </button>
+                            <button class="delete-btn">
+                                <i class="fas fa-trash-alt"></i>Delete
+                            </button>
+                            <button class="complete-btn">
+                                <i class="fas fa-check"></i>Complete
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="task-form">
+                        <h2>Create/Update Task</h2>
+                        <form id="task-form">
+                            <label for="task-title">Task Title</label>
+                            <input type="text" id="task-title" placeholder="Enter task title" required>
+                            <span id="title-error" class="error-message"></span>
+
+                            <label for="task-description">Description</label>
+                            <textarea id="task-description" placeholder="Enter task description"></textarea>
+                              <span id="description-error" class="error-message"></span>
+
+                            <label for="task-priority">Priority</label>
+                            <select id="task-priority">
+                                <option value="low">Low</option>
+                                <option value="medium">Medium</option>
+                                <option value="high">High</option>
+                            </select>
+                    
+                            <label for="task-status " >Status</label>
+                            <select id="task-status">
+                                <option value="pending">Pending</option>
+                                <option value="completed">Completed</option>
+                            </select>
+                    
+                            <button type="submit">Save Task</button>
+                        </form>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+    <script src="scripts/app.js"></script>
+</body>
+</html>

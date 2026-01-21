@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Merriweather:wght@400..700&family=Source+Code+Pro:wght@400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="navbar">
+        <nav class="navbar-nav">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+    
+            <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+                &#9776;
+            </button>
+        </nav>
+    </header>
+    <div class="icon-grid">
+        <div class="icon-container">
+            <span class="material-symbols-outlined icon" aria-label="Home" tabindex="0">home</span>
+            <span class="icon-label">Home</span>
+        </div>
+        
+        <div class="icon-container">
+            <span class="material-symbols-outlined icon" aria-label="Search" tabindex="0">search</span>
+            <span class="icon-label">Search</span>
+        </div>
+        
+        <div class="icon-container">
+            <span class="material-symbols-outlined icon" aria-label="Favorite" tabindex="0">favorite</span>
+            <span class="icon-label">Favorite</span>
+        </div>
+        
+        <div class="icon-container">
+            <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="40" height="40" aria-label="Divider" tabindex="0">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 2v20m10-10H2"></path>
+            </svg>
+            <span class="icon-label">Divider</span>
+        </div>
+        
+        <div class="icon-container">
+            <span class="material-symbols-outlined icon" aria-label="Settings" tabindex="0">settings</span>
+            <span class="icon-label">Settings</span>
+        </div>
+        
+        <div class="icon-container">
+            <span class="material-symbols-outlined icon" aria-label="Notifications" tabindex="0">notifications</span>
+            <span class="icon-label">Notifications</span>
+        </div>
+        
+        <div class="icon-container">
+            <span class="material-symbols-outlined icon" aria-label="Info" tabindex="0">info</span>
+            <span class="icon-label">Info</span>
+        </div>
+    </div>
+    
+    
+
+    <div class="layout">
+        <header>
+            <h1>HELLO, welcome to our page</h1>
+        </header>
+
+
+        <main>
+         
+
+            <section>
+                <h3>Movies =></h3>
+                <ol>
+                    <li>Interstellar</li>
+                    <li>Inception</li>
+                    <li>Godfather</li>
+                    <li>The Killer</li>
+                </ol>
+            </section>
+
+            <section>
+                <h3>Books =></h3>
+                <ul>
+                    <li>Book 1</li>
+                    <li>Book 2</li>
+                    <li>Book 3</li>
+                    <li>Book 4</li>
+                </ul>
+            </section>
+
+            <section>
+                <table>
+                    <thead>
+                        <tr>
+                            <th scope="col">Header 1</th>
+                            <th scope="col">Header 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Data 1</td>
+                            <td>Data 2</td>
+                        </tr>
+                        <tr>
+                            <td>Data 3</td>
+                            <td>Data 4</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <img src="https://picsum.photos/800/400" alt="image">
+            </section>
+
+            <section>
+                <h2>Font Weights</h2>
+                <p style="font-weight: 400;">Normal weight (400)</p>
+                <p style="font-weight: 600;">Semi-bold weight (600)</p>
+                <p style="font-weight: 800;">Bold weight (800)</p>
+            </section>
+
+            <section>
+                <h2>Font Weights 2</h2>
+                <p id="sample-text">Adjust the font weight using the slider below.</p>
+                <label for="weight-slider">Font Weight: </label>
+                <input type="range" id="weight-slider" min="100" max="900" step="100" value="400">
+            </section>
+
+            <article>
+                <h1>Welcome Typography</h1>
+                <p>Explore various typographic techniques and how to improve readability on the web...</p>
+            </article>
+
+            <section class="hero">
+                <h1 class="hero-title">Welcome to the Typography</h1>
+            </section>
+        </main>
+
+        <!-- <pre><code>const greeting = "Hello, world!";</code></pre> -->
+
+        
+
+        <aside>
+            <h2>Related Images</h2>
+        </aside>
+
+        
+        <div class="button">
+        <button id="theme-toggle">Toggle Dark/Light Theme</button></div>
+    </div>
+
+    <blockquote>
+        “The only way to do great work is to love what you do.” - Steve Jobs
+    </blockquote>
+<img src="https://picsum.photos/1200/800" alt="image.jpg" class="IMG">
+
+
+
+<div class="card-grid">
+    <div class="card card-elevated">
+        <h3>Card Title 1</h3>
+        <p>This is some sample content for the card. </p>
+    </div>
+    
+    <div class="card card--outlined">
+        <h3>Card Title 2</h3>
+        <p>Short description here.</p>
+    </div>
+    
+    <div class="card card--compact">
+        <h3>Card Title 3</h3>
+        <p>Compact content.</p>
+    </div>
+    
+    <div class="card card--elevated">
+        <h3>Card Title 4</h3>
+        <p>This is another elevated card Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus similique architecto veniam suscipit quaerat voluptas, facere expedita molestiae dolores dicta iste quas labore consectetur officia est voluptatem earum, nisi ipsa?.</p>
+    </div>
+    
+    <div class="card card--outlined">
+        <h3>Card Title 5</h3>
+        <p>This card is outlined.</p>
+    </div>
+    
+    <div class="card card--compact">
+        <h3>Card Title 6</h3>
+        <p> content.</p>
+    </div>
+</div>
+
+
+
+
+
+    <article class="article">
+        <h1>Title of the Article</h1>
+        <p class="author">Author</p>
+    
+        <section class="content">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean vel venenatis ligula, sit amet gravida nulla. Etiam
+                vestibulum nisl in ante tempus, non tincidunt libero vulputate.
+            </p>
+            <p>
+                Phasellus nec erat a ipsum scelerisque scelerisque. Nullam feugiat elit magna, sed venenatis erat auctor in. Nulla
+                fringilla ipsum non sem gravida, eu maximus augue blandit. Etiam id augue a eros varius scelerisque eu quis ipsum.
+            </p>
+            <p>
+                Vivamus mollis sem sed odio iaculis, in cursus mauris interdum. Cras vestibulum enim et tortor luctus interdum. Fusce
+                varius, sem at convallis consequat, arcu lectus facilisis ex, sed lobortis justo purus et ligula.
+            </p>
+        </section>
+    </article>
+    
+    
+    <footer>
+        <h3>Copyright</h3>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

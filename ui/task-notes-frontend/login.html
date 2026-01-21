@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/theme.css">
+</head>
+<body>
+    <div class="login">
+        <section class="auth">
+            <header>
+                <h1>Login</h1>
+                <p>Please log in to your account</p>
+            </header>
+            <form>
+                <div class="email">
+                    <label>Email</label>
+                    <input type="email" placeholder="Enter your email" required>
+                    <span class="error-message" id="email-error"></span>
+                </div>
+               <div class="password">
+                <label>Password</label>
+                <input type="password" placeholder="Enter your password" required>
+                <span class="error-message" id="password-error"></span>
+
+               </div>
+               
+                <button type="submit" id="login-btn">Login</button>
+            </form>
+            <footer>
+                <div class="button">
+                    <button id="theme-toggle">Dark/Light Theme</button></div>
+                
+            </footer>
+        </section>
+    </div>
+
+
+    <script src="scripts/auth.js"></script>
+</body>
+</html>
